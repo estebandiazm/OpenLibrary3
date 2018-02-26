@@ -12,6 +12,8 @@
 		B867D9D720434499009C4E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B867D9D520434499009C4E37 /* Main.storyboard */; };
 		B867D9D920434499009C4E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B867D9D820434499009C4E37 /* Assets.xcassets */; };
 		B867D9DC20434499009C4E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B867D9DA20434499009C4E37 /* LaunchScreen.storyboard */; };
+		B867D9E420434599009C4E37 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B867D9E320434599009C4E37 /* TableViewController.swift */; };
+		B867D9E820434C07009C4E37 /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B867D9E720434C07009C4E37 /* BookDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B867D9D820434499009C4E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B867D9DB20434499009C4E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B867D9DD20434499009C4E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B867D9E320434599009C4E37 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B867D9E720434C07009C4E37 /* BookDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B867D9D820434499009C4E37 /* Assets.xcassets */,
 				B867D9DA20434499009C4E37 /* LaunchScreen.storyboard */,
 				B867D9DD20434499009C4E37 /* Info.plist */,
+				B867D9E320434599009C4E37 /* TableViewController.swift */,
+				B867D9E720434C07009C4E37 /* BookDetailController.swift */,
 			);
 			path = OpenLibrary3;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B867D9D420434499009C4E37 /* ViewController.swift in Sources */,
+				B867D9E420434599009C4E37 /* TableViewController.swift in Sources */,
 				B867D9D220434499009C4E37 /* AppDelegate.swift in Sources */,
+				B867D9E820434C07009C4E37 /* BookDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
